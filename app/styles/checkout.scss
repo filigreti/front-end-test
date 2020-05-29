@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+.checkout-container {
+  background: #f2f2f2;
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.number {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+.text-black {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+.mt-3 {
+  margin-top: 1.3rem;
+}
+.mt-4 {
+  margin-top: 3rem;
+}
+.mt-5 {
+  margin-top: 4rem;
+}
+
+.text-header {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.section-one-content {
+  display: flex;
+  width: 100%;
+  margin-top: 1.3rem;
+}
+
+.personal-info {
+  width: 70%;
+  padding-left: 2.8rem;
+}
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.order {
+  width: 30%;
+  background-color: white;
+  margin-left: 3rem;
+  padding: 6px;
+  height: 100%;
+}
+
+.order-cont {
+  border: 1px dashed #b8b6b6;
+  height: 100%;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 1rem;
+  border-radius: 3px;
+  color: black;
+}
+.order-items {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 1rem 0 2rem;
+  row-gap: 0.7rem;
+  font-weight: 300;
+}
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.total {
+  font-weight: 500;
+}
+
+.total-big {
+  font-size: 1.5rem;
+}
+
+.order-amount {
+  border-top: 1px dashed #b8b6b6;
+}
+
+.input-container {
+  width: 100%;
+  background: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.overall {
+  padding: 0 !important;
+  box-shadow: 0 !important;
+  border: 0 !important;
+}
+
+.input-container small {
+  position: relative;
+  color: #e74c3c;
+  display: none;
+}
+
+.input-container.error small {
+  display: block;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 0.2rem 0;
+  margin: 0;
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  color: #9b9b9b;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+.input-container input::placeholder {
+  color: #9b9b9b;
+  font-family: "Roboto", sans-serif;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #ffffff;
+  color: #909090;
+  font-size: 1.1rem;
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  position: relative;
+  width: 100%;
+  margin-top: 0.2rem;
+  line-height: 3;
+  background: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+select {
+  flex: 1;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  font-size: 10px;
+  height: 100%;
+  right: 5px;
+  top: -10px;
+  z-index: 10;
+
+  color: #909090;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between !important;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-cont {
+  margin-right: 1rem;
+  border: 1px solid #f2f2f2;
+  padding: 0 0.3rem;
+  border-radius: 3px;
+}
+
+.btns {
+  width: 100%;
+  background: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.input-container button {
+  border: none;
+  width: 100%;
+  background: inherit;
+  outline: none;
+  padding: 0.9rem 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer !important;
+}
+
+.green {
+  background: #6bd401 !important;
+  cursor: pointer !important;
+}
+
+.button-text {
+  margin-left: 10px;
+  font-weight: bolder;
+  font-family: "roboto";
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: #9b9b9b !important;
+}
